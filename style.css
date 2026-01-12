@@ -45,6 +45,7 @@ h2 {
   width: 100%;
   border-radius: 10px;
   background: #111;
+  cursor: zoom-in;
 }
 
 .video-grid {
@@ -70,3 +71,21 @@ footer a {
   color: #aaa;
   text-decoration: none;
 }
+
+#lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: zoom-out;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+}
+
