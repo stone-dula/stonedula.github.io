@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0e0e12;
+  color: #eaeaea;
+}
+
+header {
+  padding: 4rem 1.5rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+
+section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+  background: #111;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.5rem;
+}
+
+.video-grid iframe {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+
+footer a {
+  margin: 0 1rem;
+  color: #aaa;
+  text-decoration: none;
+}
