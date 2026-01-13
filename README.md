@@ -1,2 +1,2 @@
-# stonedula.github.io
+# stone-dula.github.io
 
